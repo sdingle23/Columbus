@@ -1,0 +1,142 @@
+<?php  
+   $page='process';
+   $path = './';
+   require '../../../dbconnect.php/dbConnect.inc';
+   
+   if ($mysqli) {
+       if (isset($_POST['fullname']) ) {
+            if( $_POST['fullname']!=''){
+              $required_data=true;
+         }
+         else{
+              die('fullname was not sent in POST');
+             }
+         }//end of isset
+         else{
+                die('name was not set');
+             }//end of else statement
+       }//end of mysqli
+       else{
+              die('No connection to database. Check dbconnect');
+       }
+                     
+ ?>
+<?php
+$stmt=$mysqli->prepare("insert into home_form (fullname,  groupNum, date_visited, fav_place, rating) values (?, ?, ?, ?, ?)");
+$stmt->bind_param("sissi",$_GET['fullname'],$_GET['groupName'],$_GET['date_visited'],$_GET['fav_place'],['rating']);   
+        $stmt->execute();
+		$stmt->close();
+	  
+     
+      $sql = 'select fullname, vdate, fplace, rating from home_form'; 
+      $res=$mysqli->query($sql);
+	  if($res){
+        while($rowHolder = mysqli_fetch_array($res,MYSQLI_ASSOC))   {                        
+			$records[] = $rowHolder;
+		}
+          
+	  }
+        
+	
+        
+mysqli_close($mysqli);
+        
+?>
+
+<?php    
+   //function to test data
+    function test_input($data){
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+    }//end input testing
+
+    $fullname =$_POST['fullname'];
+    $groupNum =$_POST['groupNum'];
+    $vdate =$_POST['vdate'];
+    $fplace =$_POST['fplace'];
+    $rating =$_POST['rating'];
+
+    $destination_email= "sd7015@g.rit.edu,";
+
+    $email_subject="Columbus, Ohio - visitor";
+    $email_body="Visitor name:  $fullname\n";
+    $email_body .="Group size:  $groupNum\n";
+    $email_body .="Date Visited:  $vdate\n";
+    $email_body .="Favorite Place:  $fplace\n";
+    $email_body .="Rating:  $rating\n";
+
+    mail($destination_email, $email_subject, $email_body);
+     
+echo "Data Sent";
+?>
+               
+
+
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <title>Thank You for the Feedback</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/city1.css">  
+        <script  src ="assets/js/nav.js">    
+    </script>
+    </head>
+    <body>
+         <div id="loading">       
+        </div>
+        <div id="mySidenav" class="sidenav"><!--navigation div-->
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;  </a>
+             <a href="index.html">Home</a>
+             <a href="about.html">About the Author</a>
+             <a href="history.html">Background</a>
+             <a href="restaurants.html">Restaurants</a>
+             <a href="shopping.html">Shopping</a>
+             <a href="outdoor.html">Outdoor/Recreation</a>
+             <a href="arts_culture.html">Arts/Culture</a>
+             <a href="form.html">Form</a>
+             <a href="learning.html">Learning</a>
+             <a href="references.html">References</a>
+        </div><!-- end of navigation div-->
+        <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div><!--end of main div-->    
+   <h2><em>Your Opinion Matters to Us!</em></h2>         
+<section>
+    <p> On behalf of the city of Columbus, we sincerely hope your visit was a pleasant experience. The Chamber of Commerce works diligently to improve our city for visitors and our residents. Our thanks go out to you for providing feedback on your visit to our fair city. We rely on feedback like yours, to help us continue to provide visitors with an optimal experience. Please tell your family and friends, and we hope you will visit us again in the near future.
+    </p>
+ </section>
+        <div>
+        <img class="process"
+            src="assets/images/thanks.png"  title="Thank You" alt="Thank You">
+        
+</div><!--end of image div-->
+   <form NAME="form2" action="POST">
+      <p><select id="pageSelect" SIZE="1" ONCHANGE="goToNext()">
+    <option selected value="10">Page Navigation </option>
+     <option value="index.html">Home</option>
+	<option value="about.html">About</option>
+	<option value="history.html">Background show</option>
+    <option value="restaurants.html">Restaurants</option>
+      <option value="shopping.html">Shopping</option>
+      <option value="outdoor.html">Outdoor/Recreation</option>
+      <option value="arts_culture.html">Arts/Culture</option>
+      <option value="form.html">Home Form</option>
+      <option value="learning.html">Learning</option>
+      <option value="references.html">References</option>
+      </select></p>
+</form> 
+          <footer><!--footer-->  
+        
+                    <a href="http://validator.w3.org/check?uri=http://people.rit.edu/~sd7015/iste240/project1/form.html">
+                        <img src="assets/images/html_5_logo_transparent.gif" width="45" height="59"
+                             alt="HTML5" title="HTML5"></a> ;       
+                    <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fpeople.rit.edu%2F%7Esd7015&profile=css3&usermedium=all&warning=1&vextwarning=">
+                    <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" title="Valid CSS" /></a>            
+                    Last Modified: Friday, October 19, 2018 5:45PM.
+                </footer><!--end of footer-->
+</body>
+     <script src="assets/js/next.js"></script>
+</html>

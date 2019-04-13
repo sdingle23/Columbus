@@ -1,0 +1,959 @@
+body{background-color: #DEB887;
+    background-image: url("../../assets/images/col_welcome.png");           
+        background-repeat:repeat-x;
+        background-size:contain;
+        margin-bottom: 2em;  
+        margin-top: 0em;
+}
+.hpage{background-image: url("../../assets/images/col_welcome.png");   /*background image*/        
+        background-repeat: no-repeat;
+        background-size:cover;       
+        margin-bottom:31em;       
+      margin-top:10em;
+}
+#top{text-align: center;
+}
+
+h2{text-align: center;
+    font-size: 2.00em;
+    color:  	#A0522D;
+    font-family: "Trebuchet MS Header";    
+    margin-top: 11.25em;
+    background-color:#F0E68C;
+    border:  solid thin;
+    margin-left: 0.5em ;
+    margin-right: 5em ;
+    padding-right: 1em;
+    padding-left:1em;    
+}
+.class{margin-top: 15em;}
+h3{ color: #A0522D;
+    border:  solid thin;
+    background-color:#F0E68C;
+    margin-left: 2em ;
+    margin-right: 45em ;
+    padding-right: 1em;
+    padding-left:1em;
+    text-align: center;
+    font-family: "Imprint MT Shadow";
+    margin-bottom: 2em;
+   }
+h5{color: red;
+    font-size: 1.65em;
+    text-shadow: .05em .05em white;
+    padding-left: 23em;
+    padding-bottom:1em;
+    padding-top: -5em;
+    
+}
+p{  padding-left: 3em;
+    margin-right: 15em;
+    text-indent: 1.25em;
+}
+section{   text-indent: 1em;
+            margin-top: 1.25em;
+            margin-right: 1em;
+            margin-left: 1.25em;   
+            margin-bottom:3.75em;
+            padding-right: 15em;
+            padding-bottom:0em;
+}
+article{text-indent: 0.65em;        
+        margin-bottom: 2.75em;    
+        margin-top: 0.5em;
+        margin-right: 2.5em;
+        margin-left: 1.25em;
+        padding-right:5em;
+}
+
+#wrapper{margin-right: auto;/*wrapper div*/
+margin-left: auto;}
+span{font-weight: bold;
+      color:#A0522D;
+      font-family: "Trebuchet MS Header";
+}
+.about{ float: left;/*style for p{}*/
+        text-indent:1.20em;   
+        margin-left:13em;
+        margin-bottom:1em;
+        margin-right: 15em;  
+        margin-top: 0em;
+}
+.write{margin-right:5em;
+}
+.mySlides {display:none;
+}
+
+.myPic2{
+         float: left;
+         max-width: 100%;
+    height: auto;         
+         margin-left: 0.03em;
+         margin-right: 0.60em;
+         border: solid thin ;
+         margin-bottom: 0em;
+         margin-top: 1.25em;
+         padding-bottom: 0.02em;
+         background-color:azure;
+        
+}
+
+.shoe{max-width: 20em;
+    height: auto;
+float: right;
+border: solid thin;
+margin-left: 1em;
+margin-right: 15em;
+    clear: both;
+    margin-top:-4em; 
+}
+
+.park{max-width: 20em;
+    height: auto;
+float: right;
+border: solid thin;
+margin-left: 1em;
+margin-right: 12em;
+margin-top:-4em;    
+}
+.process{padding-left:28em;
+}
+
+figure{position: absolute;
+        display: block;
+        margin-bottom: 0em;
+        margin-top: 1.10em;
+        border: solid thin;
+        padding:0em 0em 1.22em 0em;
+        background-color: azure
+}
+
+figcaption {font-weight: bold;
+            bottom: 0em;
+            left: 0;
+            right: 0;
+            position: absolute;
+            text-align: center
+}
+
+.shop{max-width: 50%;
+    height: auto;
+float: right;
+border: solid thin;
+margin-left: 1em;
+margin-right: 5em;
+}
+
+.tiq{max-width: 13em;
+    height: auto;
+float: right;
+border: solid thin;
+margin-left: 2em;
+margin-right: 15em;
+margin-top: 2em;
+}
+.candy{max-width: 15em;
+    height: auto;
+       float: right;
+       clear:both;
+        border: solid thin;
+        margin-left: 3em;
+        margin-right: 18em;
+        margin-top:2em;
+}
+.foo{float: right;    
+    max-width:11.5em;
+    height: auto;
+    border: solid thin;
+    margin-left: 1em;    
+    margin-top: 2em;
+    margin-right: 1em;
+    margin-right:10em;
+    
+}
+.foo2{float: right;    
+    max-width:9.75em;
+    height: auto;
+    border: solid thin;
+    margin-left: 1em;    
+    margin-top: 2em;
+    margin-right: 6em;
+    padding-left: 0em;
+}
+.foo3{float: right;    
+    max-width:17em;
+    height: auto;
+    border: solid thin;
+    margin-left: 1em;    
+    margin-top: 2em;
+    margin-right: 8em;
+    padding-left: 0em;
+    
+    
+}
+       .map {float: right;
+            display:inline-block;
+            max-width: 100%;
+            height: auto;
+            padding-right: 0em;            
+            margin-right: 7em;
+            margin-top: 3em;
+            margin-left: 2em;
+            margin-bottom: 1em;
+}
+.map2{float: right;
+            max-width: 16em;
+            height: auto;
+            margin-right: 4em;
+            margin-top: 2em;
+            margin-left: 2em;
+            margin-bottom: 1em;
+            
+}
+    .map3{  float:right;
+            clear:both;
+            max-width: 25em;
+            height: auto;
+            margin-right: 2em;
+            margin-top: 2em;
+            margin-left: 0em;
+            margin-bottom: 1em;
+           
+    
+}
+.myPic{ float: left;
+        margin-top: 3em;
+        
+}
+.myLogo{float: left;  
+         max-width: 5em;
+         height: auto;
+         margin-top:26em;   
+       
+}
+.col{   max-width: 20em;  
+        height:auto;
+        float: right;   
+         padding: 0em; 
+         margin-right:12em;
+         margin-left: 5em; 
+         border: solid thin;
+}
+.logo{   margin-top: 26em;        
+          mix-blend-mode: darken;
+          background-color:none;
+          
+          max-width: 10%;
+          height:auto;
+          float: right;
+          transform-style: preserve-3d;    
+          transform: rotateY(0);    
+          animation: animate 10s linear infinite;
+          will-change: opacity;
+}
+
+
+table, td, th {/*table styles*/
+    border:  solid black thin ;  
+    border-collapse: collapse;
+    margin-left: 2em;   
+    margin-right: 100em;
+    width: 70%;   
+    padding-right: 0em;
+    word-wrap:break-word;
+    margin-bottom: 2em
+}     
+td{padding: 1em;
+margin-right:auto;
+}
+
+
+@keyframes animate{
+    to {
+        transform: rotateY(-360deg);
+    }
+}
+#loading {/*rotates ohio state image*/
+		-webkit-animation: rotation infinite linear ;
+}
+
+
+.myslides{float: right;
+        margin-left: 5em;
+        display: none;
+        width:100%;
+}
+
+
+
+
+.sidenav {
+    height: 75%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:burlywood;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 4em;
+    
+    font-family:"Imprint MT Shadow";
+    
+}
+
+.sidenav a {
+    padding: 0.02em 0.5em 0.3em 0.65em;
+    text-decoration: none;
+    font-size: 1.55em;
+    color: #A0522D; 	
+    display: block;
+    transition: 0.3s;
+    padding-bottom: 0.25em;
+   
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color:black;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    font-family: "Imprint MT Shadow ";
+    color: black;
+    font-size:1.65em;
+    cursor:pointer;
+}
+
+ .text{padding-left: 5em;
+}
+.text2{padding-left: 3em;}
+.hr {
+    border: 0.05em solid black;
+    width: 100%;
+   
+}
+ .rating {text-align: center;
+}
+
+.scale{margin-left:5.5em;
+       margin-right:0.5em;
+         
+}
+.fav1{margin-left: 1em;
+    margin-right: 50em;
+}
+.bold{font-weight: bold;
+      color:darkslategray 
+}
+.fav2{margin-left: 1em;
+    margin-right: 53em;
+}
+.input{font-family: "Trebuchet MS";
+        background-color:darkslategray;
+        color:yellow;
+        margin-top: 1em;
+        margin-left: 5em;
+        font-size: 1.25em;
+        
+        padding-left: 0.40em; 
+        text-align: left;
+        border-radius: 2em;
+}
+.input3{width: 2em;
+        margin-left: 0.25em;
+        border-style: solid;
+        text-align: center  
+}
+.input4{font-family: fantasy;
+background-color: blue;
+color: white;
+margin-left: 4em;
+margin-top: 2em;
+    font-size: 1em;
+}
+.input1{margin-bottom: 1em;
+        margin-left: 1.05em;
+        padding-left: .10em        
+}
+.input2{margin-bottom: 1em;
+        margin-left: 20em;
+    text-align: center;
+}
+label{padding-left: 2em;
+      padding-bottom:1em;
+}
+.label2{padding-left: 5em;
+      padding-bottom:1em;}
+.invalid{border-style: solid;         
+         margin-left: 1em;
+}            
+.slidecontainer {padding-left: 0em;
+    width: 20%;
+   margin-bottom: -.3em;
+   padding-bottom: 1em;
+    margin-left:0.25em;
+    padding-left: 0em;
+}
+#pageSelect{margin-left: 29.5em;
+  margin-top: 1em;  
+
+font-family: "Trebuchet MS";
+background-color: khaki;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25em;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-left: 10em;
+   padding-left: 2em;
+}
+footer {
+        clear: both;
+        left:0em;
+        right:0em;
+        bottom:0em;        
+        width: 100%;
+        text-align:center;
+        border-top:solid 2px black;
+        padding-top:0.75em;
+        margin-top: 1em;
+        font-size:0.70em;
+        padding-bottom: 0em;
+}  
+/* unvisited link */
+a:link.blue {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+/* changes color with mouseover */
+a:hover {
+    color:crimson;
+}
+
+/*  link is selected */
+a:active {
+    color: red;
+}
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+{ .hpage{background-image: url("../../assets/images/col_welcome.png");       
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;        
+    }
+    a:link.blue { padding-left:0em; 
+                  
+    }
+    a{padding-right: 0em;
+    }
+    #pageSelect{margin-left: 1em;
+                margin-top: 1em;  
+    }
+    .logo{margin-top: 10.5em;        
+          mix-blend-mode: darken;
+          background-color:none;
+          
+          max-width: 5em;
+          float: right;
+          transform-style: preserve-3d;    
+          transform: rotateY(0);    
+          animation: animate 10s linear infinite;
+          will-change: opacity;
+    }
+    #wrapper{margin: 0em 0em 0em 0em;
+    padding: 0em 1em 1em 1em
+    }
+    h2{margin-top:4.5em;
+        padding-right:5em;
+        font-size:1.35em;
+        margin-left: 0.01em;
+        margin-right:2.85em;
+        margin-bottom:1em;
+        padding-left:2.5em       
+        
+    }
+    
+    h3{margin-top:1em;
+        padding-right:9em;
+        padding-left: 2em;
+        font-size:1.10em;
+        margin-left: 1em;
+        margin-right:10em;
+        margin-bottom:0em;
+        margin-top:0em;
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+    li{color:red;
+    }
+    p{margin-top:1em;
+        padding-bottom:0em;
+        float:none;
+        padding-right:2em;
+    }
+    .about{float: left;/*style for p{}*/
+        text-indent:1em;   
+        margin-left:0em;
+        margin-bottom:0em;
+        margin-right: 3em;  
+        margin-top: 1em;
+        padding-left:0em;
+        padding-bottom:.11em;
+        padding-top:0em;
+    }
+    figure{            
+        position: relative;
+        width: 11.55em;
+        
+        margin-left: 0em;
+        margin-right: 0em;
+        padding-top:0em;
+        padding-bottom:1em;   
+        margin-bottom: 0em;
+        margin-top: 0em;
+    }
+   
+        section{ text-indent: 1em;
+            margin-left: 0em;
+            margin-right: 3em;
+            margin-bottom: 1em;
+            padding-right: 0.6em;
+    }  
+   article{ text-indent: 0.65em;        
+            margin-bottom: 1em;    
+            margin-top: 1em;
+            margin-right: 3em;
+            margin-left: 1.25em;
+            padding-right:5em;
+            padding-bottom:1em;
+            padding-top:0em;
+    }
+     .map        {float: right;
+            display:inline-block;
+            max-width:6em;
+            padding-right: 0em;
+            height: 5%;
+            margin-right: 1em;
+            margin-top: 14em;
+            margin-left: 2em;
+            margin-bottom: 1em;
+    }
+    .map2{max-width: 5em;
+         height:auto;
+         margin-top: 8em;
+         margin-right: 0.6em;
+    }
+    .map3{max-width: 6em;
+          height:auto;
+          margin-top: 8em;
+          margin-right: 2em;
+    }
+     .col{   max-width: 10em;  
+             height:auto;
+             float: right;   
+             padding: 0em; 
+             margin-right:3em;
+             margin-left: 5em; 
+             border: solid thin;
+             margin-top: 3em;
+    }   
+    .foo { 
+        float: right;       
+        max-width: 6em;
+        height: auto;
+        border: solid thin;
+        margin-left: 1em;
+        padding-bottom:0em;
+        margin-top: 11em;
+        margin-right: 1em;
+  } 
+ .foo2{float: right;    
+    max-width:5em;
+    height: auto;
+    border: solid thin;
+    margin-left: 1em;    
+    margin-top: 17em;
+    margin-right: .05em;
+    padding-left: 0em;  
+}
+    .foo3{float: right;    
+    max-width:9.5em;
+    height: auto;
+    border: solid thin;
+    margin-left: 1em;    
+    margin-top: 2em;
+    margin-right: 4em;
+    padding-left: 0em;
+   margin-top: 8em;    
+}
+.shop{max-width: 10em;
+    height: auto;
+    float: right;
+    border: solid thin;
+    margin-left: 0.5em;
+    margin-right: 4em;
+    margin-top: 10em;
+}
+
+.tiq{float: right;
+    max-width: 8em;
+    height: auto;
+    float: right;
+    border: solid thin;
+    margin-left: 1.15em;
+    margin-right: 6em;
+    margin-top: 10em;
+}
+.candy{max-width: 10em;
+       height: auto;
+       float: right;
+       border: solid thin;
+       margin-left: 0em;
+       margin-right: 4.95em;
+       margin-bottom:1em;
+       margin-top:10em;
+       
+}
+.shoe{max-width:10em;
+    height: auto;
+    float: right; 
+    clear:both;
+    margin-left: 0em;
+    margin-right: -4em;
+    margin-bottom:1em;
+    margin-top:7em;
+    border: solid thin;
+    
+}
+
+.park{max-width: 10em;
+    height: auto;
+float: right;
+border: solid thin;
+margin-left: 1em;
+margin-right: -4em;
+ margin-top:7em;   
+}
+    img{max-width:7em;
+    height:auto}    
+  .input{font-family: "Trebuchet MS";
+        background-color:darkslategray;
+        color:yellow;
+        margin-top: 1em;
+        margin-left: 0em;
+        font-size: 1.25em;
+        
+        padding-left: 0.40em; 
+        text-align: left;
+        border-radius: 2em;
+}
+    label{padding-left: 1em;
+          padding-bottom:1em;
+          margin-right:5em;
+        
+}
+    .myLogo{float: left;  
+         max-width: 10%;
+         height: auto;
+         margin-top:3em;   
+         margin-bottom:1em;
+         margin-left:0em;
+}
+    label{padding-left:2em; 
+          padding-bottom:0em;
+          padding-top:1em;
+          margin-top:1em;
+         margin-bottom:3em;
+}
+.fav2{margin-left: 2em;
+    margin-right: 53em;
+}
+    table, td, th {/*table styles*/
+    border:  solid black thin ;  
+    border-collapse: collapse;
+    margin-left: 1em;   
+    margin-right: 5em;
+    max-width: 7.5em;   
+    padding-right: 0em;
+    word-wrap:break-word;
+    margin-bottom: 2em;
+}     
+}
+
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    
+    {   
+         .hpage{background-image: url("../../assets/images/col_welcome.png");       
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center; 
+        
+    }
+     h2{padding-top: 0em;
+        padding-right:5em;
+        font-size:1.15em;
+        margin-left: 0.5em;
+        margin-right:11em;
+        margin-bottom:0.50em;
+        margin-top:9em;
+        text-align:center;
+         
+    }
+        h3   { margin-top:-2em;
+            padding-right:3em;
+            padding-left: 2em;
+            font-size:1.45em;
+            margin-left: 1em;
+            margin-right:15em;
+            margin-bottom:0.5em; 
+            padding-bottom:0em;
+            
+    }
+   .col{   max-width: 16em;  
+        height:auto;
+        float: right;   
+         padding: 0em; 
+         margin-right:12em;
+         margin-left: 1em; 
+         border: solid thin;
+    }
+    .foo{ float: right;    
+    max-width:8em;
+    height: auto;
+    border: solid thin;
+    margin-left: 4em;
+    padding-bottom:0em;
+    margin-top: 2em;
+    margin-right: 0em;
+    padding-left: 0em;
+}
+    
+    .foo2{float: right;    
+    max-width:7.5em;
+    height: auto;
+    border: solid thin;
+    margin-left: 1em;    
+    margin-top: 2em;
+    margin-right: .05em;
+    padding-left: 0em;  
+}.foo3{float: right;    
+    max-width:18.5em;
+    height: auto;
+    border: solid thin;
+    margin-left: 1em;    
+    margin-top: 2em;
+    margin-right: 4em;
+    padding-left: 0em;
+   margin-top: 8em;
+    
+}
+        
+     .map   {float: right;
+            display:inline-block;
+            max-width:10em;
+            height: auto
+            padding-right: 0em;           
+            margin-right: 1em;
+            margin-top: 3em;
+            margin-left: 1em;
+            margin-bottom: 1em;
+        }
+        
+        .map2{float: right;
+            max-width: 10em;
+            height: auto;
+            margin-right: 4em;
+            margin-top: 2em;
+            margin-left: 2em;
+            margin-bottom: 1em;
+            
+        }
+        .map3{max-width:10em;
+              height: auto;
+              margin-top: 1em;
+              margin-right: 2em;
+             margin-left: 1em;
+             margin-bottom: 0em;
+
+        }
+        .shoe{max-width:18em;
+        height: auto;
+        float: right; 
+        clear:both;
+        margin-left: 0em;
+        margin-right: 2em;
+        margin-bottom:1em;
+        margin-top:2em;
+        border: solid thin;
+    
+}
+
+.park{max-width: 18em;
+    height: auto;
+float: right;
+border: solid thin;
+margin-left: 1em;
+margin-right: -4em;
+ margin-top:7em;   
+}
+.shop{max-width: 12em;
+    height: auto;
+    float: right;
+    border: solid thin;
+    margin-left: 0.5em;
+    margin-right: 21.75em;
+    margin-top: 6em;
+}
+
+.tiq{float: right;
+    max-width: 10em;
+    height: auto;
+    float: right;
+    border: solid thin;
+    margin-left: 1.15em;
+    margin-right: 22em;
+    margin-top: 0em;
+}
+.candy{max-width: 10em;
+       height: auto;
+       float: right;
+       border: solid thin;
+       margin-left: 1em;
+       margin-right: 22em;
+       margin-bottom:1em;
+       margin-top:2em;
+       
+}
+    section{ text-indent: 1em;
+            margin-left: 1em;
+            margin-right: 2em;
+            margin-bottom: 1em;  
+            padding-left:0em;
+            margin-top: 0em;
+            
+    }
+        
+    article{ text-indent: 0.65em;        
+        margin-bottom: 5em;    
+        margin-top:0em;
+        margin-right:1em;
+        margin-left: 1.25em;
+        padding-right:15em;
+        padding-bottom:0em;
+        padding-top:0em;
+    }
+        
+    .logo{margin-top:5em; 
+        padding-top:10em;
+          mix-blend-mode: darken; 
+         background-color: none;
+          max-width: 5.75em;
+          float: right;
+          transform-style: preserve-3d;    
+          transform: rotateY(0);    
+          animation: animate 10s linear infinite;
+          will-change: opacity;
+    }
+        
+    #wrapper{margin: 0em 0em 0em 0em;
+    padding: 1em 1em 1em 1em
+    }
+   table, td, th {/*table styles*/
+    border:  solid black thin ;  
+    border-collapse: collapse;
+    margin-left: 2em;   
+    margin-right: 5em;
+    max-width: 20em;   
+    padding-right: 0em;
+    word-wrap:break-word;
+    margin-bottom: 2em
+}     
+td{padding: 1em;
+margin-right:auto;
+}
+    p{margin-top:1em;
+        padding-bottom:0em;
+        float:none;
+        padding-right:2em;
+    }
+    .about{float: left;/*style for p{}*/
+        text-indent:1em;   
+        margin-left:13em;
+        margin-bottom:0em;
+        margin-right: 1em;  
+        margin-top: 0em;
+        padding-left:0em;
+        padding-bottom:1em;
+        padding-top:0em;
+    }
+    figure{            
+        position: none;
+        width: 11.55em;
+        
+        margin-left: 0em;
+        margin-right: 0em;
+        padding-top:0em;
+        padding-bottom:1em;   
+        margin-bottom: 0em;
+        margin-top: 0em;
+    }
+
+   
+      .input{font-family: "Trebuchet MS";
+        background-color:darkslategray;
+        color:yellow;
+        margin-top: 1em;
+        margin-left: 0em;
+        font-size: 1.25em;
+        
+        padding-left: 0.40em; 
+        text-align: left;
+        border-radius: 2em;
+}
+    label{padding-left: 1em;
+          padding-bottom:1em;
+          margin-right:5em;
+        
+}
+    
+    label{padding-left:2em; 
+          padding-bottom:0em;
+          padding-top:1em;
+          margin-top:1em;
+         margin-bottom:3em;
+}
+.fav2{margin-left: 2em;
+    margin-right: 53em;
+}
+         .myLogo{float: left;  
+         max-width: 4em;
+         height: auto;
+         margin-top:10em;   
+         margin-bottom:1em;
+         margin-left:0em;
+}
+}
